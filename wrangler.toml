@@ -1,0 +1,16 @@
+main="./api/index.ts"
+name = "YOUR_WORKER_NAME"
+compatibility_date = "2021-09-29"
+workers_dev = true
+send_metrics = false
+
+[site]
+bucket = "./dist/client"
+
+[dev]
+port = 3000
+
+[[r2_buckets]]
+binding = 'MY_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'my-bucket'
+preview_bucket_name = 'preview-my-bucket'
