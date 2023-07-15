@@ -1,4 +1,4 @@
-# Project Title
+# React Vite SSR Cloudflare starter template
 
 ## Description
 
